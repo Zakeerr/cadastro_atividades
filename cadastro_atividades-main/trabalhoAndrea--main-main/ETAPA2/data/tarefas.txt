@@ -1,0 +1,3 @@
+Trabalho ED;Lista encadeada;Estruturas de Dados;14/05
+Prova Física;Estudar capítulos 1 e 2;Física;20/05
+Projeto POO;Finalizar UML;POO;25/05

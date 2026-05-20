@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OrganizaJá</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>📚 OrganizaJá</h1>
+
+        <div clas="formularsio">
+
+            <input type="text" id="titulo" placeholder="Título">
+
+            <input type="text" id="descricao" placeholder="Descrição">
+
+            <input type="text" id="disciplina" placeholder="Disciplina">
+
+            <input type="text" id="prazo" placeholder="Prazo">
+
+            <button onclick="cadastrarTarefa()">
+                Cadastrar
+            </button>
+
+        </div>
+
+
+        <div class="acoes">
+
+            <button onclick="concluirTarefa()">
+                Concluir Próxima
+            </button>
+
+            <button onclick="desfazerAcao()">
+                Desfazer
+            </button>
+
+            <button onclick="carregarTarefas()">
+                Atualizar
+            </button>
+
+            <button onclick="buscarTarefa()">
+    Buscar
+</button>
+
+<button onclick="verProxima()">
+    Próxima
+</button>
+
+<button onclick="excluirTarefa()">
+    Excluir
+</button>
+
+<button onclick="carregarArquivo()">
+    Carregar TXT
+</button>
+
+        </div>
+
+
+        <h2>Lista de Tarefas</h2>
+
+        <div id="lista-tarefas"></div>
+
+    </div>
+
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
