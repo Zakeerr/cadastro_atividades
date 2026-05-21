@@ -1,5 +1,10 @@
 # OrganizaJá
 
+Integrantes
+Isaque Ferreira — RGM: 43660126
+Lukas Paulo — RGM: 47763311
+Ruan Abner — RGM: 43095097
+
 Sistema de gerenciamento de tarefas acadêmicas desenvolvido para a disciplina Estruturas de Dados I.
 
 ---
